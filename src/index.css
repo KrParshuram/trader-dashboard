@@ -1,0 +1,130 @@
+.stat-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+  min-width: 140px;
+}
+.stat-label {
+  font-size: 13px;
+  color: #666;
+  margin: 0 0 4px;
+}
+.stat-value {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.risk-bar {
+  margin-bottom: 16px;
+}
+.risk-bar-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.risk-bar-track {
+  background: #e9ecef;
+  border-radius: 6px;
+  height: 10px;
+  overflow: hidden;
+}
+.risk-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+.risk-bar-remaining {
+  font-size: 12px;
+  color: #666;
+  margin: 4px 0 0;
+}
+
+.risk-banner {
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.risk-banner-status {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+.risk-banner-message {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
+}
+
+.trade-list {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.trade-list-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: #f8f9fa;
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+}
+.trade-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+}
+.pnl-positive {
+  color: #2e7d32;
+  font-weight: 600;
+}
+.pnl-negative {
+  color: #c62828;
+  font-weight: 600;
+}
+.trade-list-empty {
+  color: #888;
+  font-style: italic;
+}
+.dashboard {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: system-ui, sans-serif;
+}
+section {
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 12px;
+}
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.equity-curve {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 12px;
+}
+.risk-budget {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 12px;
+}
+.risk-budget h3 {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+.risk-budget-line {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #333;
+}
