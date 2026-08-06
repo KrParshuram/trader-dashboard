@@ -60,12 +60,7 @@ function App() {
       </section>
 
 
-      <section>
-        <h2>Risk Status</h2>
-        <RiskBanner status={overallStatus} />
-        <RiskBar label="Drawdown" used={currentDrawdown} limit={account.maxDrawdown} />
-        <RiskBar label="Daily Loss" used={dailyLoss} limit={account.dailyLossLimit} />
-      </section>
+
 
       <section>
         <h2>Risk Status</h2>
