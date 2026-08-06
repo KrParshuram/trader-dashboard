@@ -7,7 +7,7 @@ Built for the Tradescape assignment.
 ## How to run it
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/KrParshuram/trader-dashboard.git
 cd trader-dashboard
 npm install
 npm run dev
